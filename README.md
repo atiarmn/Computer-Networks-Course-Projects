@@ -1,6 +1,6 @@
 # Computer Networks Course Projects
 
-Implemented an FTP Server, a local network with switches and routing tables, and a bigger network with routers and multicast groups in course of three distinctive projects using C++ language  
+Implemented an FTP Server, a local network with switches and routing tables, and a bigger network with routers and multicast groups in course of three distinctive projects using C++ language:  
 
 * **FTP Server**: In this project, two different codes were executed, one as an FTP server which serves the requests of clients, and one as a client communicating with the server via socket. Lots of commands were defined for managing directories such as pwd, mkd (for creating a directory), cwd (same as cd in Unix), etc. besides some authentication commands for clients. 
 * **Switching**: In this project, we designed a local network consisting of switches and clients, which wanted to communicate with each other and send frames. For this purpose, switches created switching tables for themselves binding their interfaces to the clients and forwarded frames to the binded interface after extracting the receiver's ID from the frames header. 
